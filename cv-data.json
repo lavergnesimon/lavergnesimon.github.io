@@ -1,0 +1,94 @@
+{
+  "profile": {
+    "name": "John Doe",
+    "title": "Développeur Full Stack",
+    "description": "Passionné par la création d'applications web innovantes avec 5+ ans d'expérience",
+    "email": "john@example.com",
+    "phone": "+33 6 12 34 56 78",
+    "linkedin": "linkedin.com/in/johndoe",
+    "location": "Paris, France",
+    "summary": "Développeur Full Stack spécialisé dans la création d'applications web modernes et performantes. Fort d'une expérience en gestion de projet et de team leadership."
+  },
+  "experience": [
+    {
+      "title": "Développeur Senior",
+      "company": "TechCorp",
+      "period": "2021 à présent",
+      "duration": "3 ans",
+      "description": "Responsable du développement de solutions web complexes et du management d'équipe",
+      "details": [
+        "Développement d'applications web avec React et Node.js",
+        "Gestion d'équipe de 5 développeurs",
+        "Mise en place de bonnes pratiques et standards de code",
+        "Architecture et optimisation de bases de données"
+      ]
+    },
+    {
+      "title": "Développeur Mid-level",
+      "company": "WebSolutions",
+      "period": "2019 à 2021",
+      "duration": "2 ans",
+      "description": "Développement full stack de sites web et applications",
+      "details": [
+        "Création de sites web responsifs",
+        "Optimisation de performance",
+        "Intégration d'APIs externes",
+        "Déploiement sur serveurs AWS"
+      ]
+    },
+    {
+      "title": "Développeur Junior",
+      "company": "StartupLab",
+      "period": "2018 à 2019",
+      "duration": "1 an",
+      "description": "Développement frontend et support technique",
+      "details": [
+        "Création d'interfaces utilisateur avec HTML/CSS/JavaScript",
+        "Support client et debugging",
+        "Maintenance de sites web existants"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "level": "Expert",
+      "technologies": "HTML5, CSS3, JavaScript ES6+, React, Vue.js, Webpack, Sass"
+    },
+    {
+      "category": "Backend",
+      "level": "Expert",
+      "technologies": "Node.js, Express, Python, Django, MongoDB, PostgreSQL, MySQL"
+    },
+    {
+      "category": "DevOps & Outils",
+      "level": "Avancé",
+      "technologies": "Git, GitHub, Docker, AWS, CI/CD, Jenkins, Linux"
+    },
+    {
+      "category": "Langages",
+      "level": "Avancé",
+      "technologies": "JavaScript, Python, PHP, SQL, TypeScript"
+    }
+  ],
+  "education": [
+    {
+      "title": "Licence en Informatique",
+      "school": "Université Paris Tech",
+      "year": "2019",
+      "description": "Spécialisation en Développement Web et Bases de Données"
+    },
+    {
+      "title": "Certificat Full Stack",
+      "school": "CodeAcademy",
+      "year": "2018",
+      "description": "Formation intensive en développement web full stack (3 mois)"
+    },
+    {
+      "title": "Baccalauréat Scientifique",
+      "school": "Lycée Saint-Louis",
+      "year": "2015",
+      "description": "Mention Assez Bien"
+    }
+  ]
+}
