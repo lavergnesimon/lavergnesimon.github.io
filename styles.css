@@ -53,7 +53,7 @@ header {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -66,6 +66,27 @@ main {
     border-radius: 10px;
     margin: 2rem 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
+}
+
+.hero-text {
+    text-align: left;
 }
 
 .hero h1 {
@@ -97,6 +118,42 @@ main {
     font-size: 1.8rem;
     border-bottom: 3px solid #667eea;
     padding-bottom: 0.5rem;
+}
+
+.resume-container {
+    max-width: 100%;
+}
+
+.profile-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.profile-info a {
+    color: #667eea;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.profile-info a:hover {
+    text-decoration: underline;
 }
 
 .experience-item, .education-item {
@@ -173,9 +230,30 @@ footer {
 
 .exp-header {
     display: flex;
-    justify-content: space-between;
+    gap: 1.5rem;
     align-items: flex-start;
     margin-bottom: 0.8rem;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.exp-info {
+    flex: 1;
+}
+
+.exp-info h3 {
+    margin-bottom: 0.3rem;
+}
+
+.exp-location {
+    color: #667eea;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
 }
 
 .exp-meta {
@@ -270,6 +348,33 @@ footer {
     text-decoration: underline;
 }
 
+.exp-skills {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.exp-skills strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #667eea;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background-color: #667eea;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         gap: 1rem;
@@ -280,5 +385,12 @@ footer {
     }
     .skills-container {
         grid-template-columns: 1fr;
+    }
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
     }
 }

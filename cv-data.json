@@ -1,94 +1,131 @@
 {
   "profile": {
-    "name": "John Doe",
-    "title": "Développeur Full Stack",
-    "description": "Passionné par la création d'applications web innovantes avec 5+ ans d'expérience",
-    "email": "john@example.com",
-    "phone": "+33 6 12 34 56 78",
-    "linkedin": "linkedin.com/in/johndoe",
+    "name": "Simon LAVERGNE",
+    "title": "Data Scientist AI / GenAI",
+    "description": "Ingénieur spécialisé en Intelligence Artificielle et Machine learning, recherche une mission en freelance pour mettre en œuvre des solutions IA innovantes et à fort impact.",
+    "email": "lavergnesimon.pro@gmail.com",
+    "linkedin": "in/lavergnesimon/",
     "location": "Paris, France",
-    "summary": "Développeur Full Stack spécialisé dans la création d'applications web modernes et performantes. Fort d'une expérience en gestion de projet et de team leadership."
+    "summary": "Ingénieur spécialisé en Intelligence Artificielle et Machine Learning, j'ai passé 4 années en tant que consultant en Data Science et IA au sein de Wavestone. Cette expérience m'a permis d'intervenir sur des projets variés, d'apporter une <strong>expertise solide en Machine Learning et de développer des compétences avancées en IA générative (RAG, prompt engineering, conception d'agents).</strong><br /><br />Je possède aujourd'hui une double expertise :<br /><ul><li>IA générative : conception de solutions RAG, création d'agents, structuration de prompts complexes</li><li>IA classique (Machine Learning) : modélisation, optimisation, industrialisation</li></ul>J'ai piloté et réalisé des projets de bout en bout : <strong>définition et développement de use cases IA/IA Gen, encadrement d'équipes, gestion de projet, rédaction de documentations techniques et accompagnement des parties prenantes.</strong><br /><br />Techniquement, je maîtrise Python, les environnements AWS et Azure, ainsi que les bonnes pratiques de développement et d'industrialisation. J'accompagne les organisations dans la conception de solutions IA robustes, utiles et alignées avec leurs enjeux métiers.<br />Aujourd'hui, je mets mes compétences au service d'entreprises souhaitant exploiter pleinement le potentiel de l'IA.",
+    "photo": "./photo.jpg"
   },
   "experience": [
     {
-      "title": "Développeur Senior",
-      "company": "TechCorp",
-      "period": "2021 à présent",
-      "duration": "3 ans",
-      "description": "Responsable du développement de solutions web complexes et du management d'équipe",
-      "details": [
-        "Développement d'applications web avec React et Node.js",
-        "Gestion d'équipe de 5 développeurs",
-        "Mise en place de bonnes pratiques et standards de code",
-        "Architecture et optimisation de bases de données"
-      ]
+      "title": "Mission : Expert IA & Chef de projet",
+      "company": "Wavestone / ENGIE",
+      "logo": ["logo/wavestone.webp", "logo/engie.svg"],
+      "location": "La Défense, France",
+      "period": "Juin 2024 à Janvier 2026",
+      "duration": "1 an et 7 mois",
+      "description": "Responsable du développement de solutions IA générative au sein des équipes Corp",
+      "details": "Au sein du groupe ENGIE en tant qu'expert en Intelligence Artificielle et chef de projet, j'ai accompagné les équipes Tech et Cyber dans la définition, la priorisation et la mise en œuvre de leurs besoins en IA et IA générative.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Collecte et analyse des besoins métiers IA auprès des différentes équipes Tech et Cyber, puis priorisation des demandes en fonction des enjeux, de la faisabilité et de la valeur ajoutée.</li><li>Construction d'une roadmap IA/GenAI alignée avec les objectifs stratégiques du groupe.</li><li>Développement de use cases IA générative (LLM, RAG, agents intelligents) en méthodologie agile, depuis la conception (Python) jusqu'à la mise en production (AWS).</li><li>Pilotage de projet : gestion d'un consultant junior, coordination des parties prenantes, suivi des livrables et reporting.<li>Rédaction de documentations techniques IA et élaboration des règles et recommandations officielles sur l'usage de la GenAI au sein d'ENGIE.</li><li>Organisation d'hackathons IA en collaboration avec les cloud providers partenaires du groupe.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> AWS (Lambda, S3, SageMaker, Bedrock, API Gateway), LangChain, Python, Copilot Studio Agent"
     },
     {
-      "title": "Développeur Mid-level",
-      "company": "WebSolutions",
-      "period": "2019 à 2021",
-      "duration": "2 ans",
-      "description": "Développement full stack de sites web et applications",
-      "details": [
-        "Création de sites web responsifs",
-        "Optimisation de performance",
-        "Intégration d'APIs externes",
-        "Déploiement sur serveurs AWS"
-      ]
+      "title": "Mission : Data Scientist & Data Analyst",
+      "company": "Wavestone / Observatoire national de l'Économie des Stations Thermales (OESTh)",
+      "logo": ["logo/wavestone.webp", "logo/oesth.jpg"],
+      "location": "Paris, France",
+      "period": "Août 2023 à Novembre 2023",
+      "duration": "4 mois",
+      "description": "Responsable du développement de rapports d'analyse économique et de modèles de Machine Learning pour l'OESTh",
+      "details": "Pour l'Observatoire national de l'Économie des Stations Thermales, j'ai contribué à la valorisation et à l'analyse des données économiques du secteur en développant des outils d'aide à la décision et des modèles d'apprentissage automatique.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Conception et développement d'une interface PowerBI permettant la visualisation, l'exploration et l'analyse des indicateurs économiques des stations thermales.</li><li>Extrapolation des données manquantes à l'aide de modèles de Machine Learning afin d'améliorer la complétude et la fiabilité des analyses statistiques.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> PowerBI, Excel, Python"
     },
     {
-      "title": "Développeur Junior",
-      "company": "StartupLab",
-      "period": "2018 à 2019",
-      "duration": "1 an",
-      "description": "Développement frontend et support technique",
-      "details": [
-        "Création d'interfaces utilisateur avec HTML/CSS/JavaScript",
-        "Support client et debugging",
-        "Maintenance de sites web existants"
-      ]
+      "title": "Mission : Data Scientist",
+      "company": "Wavestone / AXA Go",
+      "logo": ["logo/wavestone.webp", "logo/axa.jpg"],
+      "location": "Paris, France",
+      "period": "Avril 2023 à Juillet 2023",
+      "duration": "4 mois",
+      "description": "Développement d'une solution de classification automatique des verbatims pour l'enquête interne PULSE d'AXA Go",
+      "details":"Pour AXA Go dans le cadre de l'enquête interne PULSE, j'ai développé une solution de classification automatique des verbatims afin d'améliorer l'analyse qualitative des retours employés et d'identifier les signaux critiques au sein des différentes unités de la banque.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Analyse et traitement des verbatims issus de l'enquête PULSE, préparation des données textuelles et mise en qualité.</li><li>Développement d'un modèle de classification basé sur XGBoost pour catégoriser automatiquement les verbatims et détecter ceux présentant un caractère potentiellement critique.</li><li>Mise en place d'un pipeline d'analyse permettant de générer des rapports synthétiques pour chaque unité, facilitant la prise de décision et le suivi des tendances internes.</li><li>Collaboration avec les équipes RH et métiers pour affiner les catégories, valider les résultats et garantir la pertinence opérationnelle des analyses.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> Python, XGBoost, PowerPoint"
+    },
+    {
+      "title": "Mission : Data Analyst",
+      "company": "Wavestone / Agence Nationale de Traitement Automatisé des Infractions (ANTAI)",
+      "logo": ["logo/wavestone.webp", "logo/antai.png"],
+      "location": "Paris, France",
+      "period": "Novembre 2023 à Avril 2024",
+      "duration": "6 mois",
+      "description": "Analyse et valorisation de données d'infractions routières pour l'ANTAI, production d'études statistiques destinées à des acteurs institutionnels et médiatiques",
+      "details":"Au sein de l'ANTAI, j'ai contribué à l'analyse et à la valorisation de larges volumes de données liées aux infractions routières, afin de produire des études statistiques destinées à des acteurs institutionnels et médiatiques.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Analyse de grands ensembles de données relatives aux infractions routières, préparation et structuration des jeux de données pour les besoins d'étude.</li><li>Développement de scripts SQL pour automatiser l'extraction, le nettoyage et la transformation des données.</li><li>Production de fichiers d'études statistiques destinés à des parties prenantes variées (journalistes, cabinets ministériels, directions internes), avec un haut niveau d'exigence en termes de fiabilité et de clarté.</li><li>Utilisation de Dataiku pour orchestrer les workflows de traitement et assurer la reproductibilité des analyses.</li><li>Création d'outils et automatisations via VBA et Excel pour faciliter la génération récurrente des rapports.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> Dataiku, SQL, VBA, Excel"
+    },
+    {
+      "title": "Mission internes : IA générative",
+      "company": "Wavestone",
+      "logo": ["logo/wavestone.webp"],
+      "location": "La Défense, France",
+      "period": "Juillet 2023 à Août 2024",
+      "duration": "2 mois",
+      "description": "Développement de solutions d'IA générative pour des projets internes chez Wavestone",
+      "details":"<strong>Mission : Data Scientist / AI Engineer - Projet interne Wavestone (VivaTech)</strong><br />Dans le cadre d'un projet interne, j'ai développé une solution d'IA générative afin d'optimiser l'expérience des visiteurs lors du salon VivaTech. L'objectif était d'organiser automatiquement les parcours clients sur les différents stands partenaires en fonction de leurs critères et centres d'intérêt.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Conception et développement d'une IA générative permettant de recommander un parcours personnalisé pour chaque visiteur du salon.</li><li>Scraping et collecte automatisée des données des startups présentes à VivaTech afin d'alimenter la base d'informations utilisée par le moteur de recommandation.</li><li>Développement Python pour l'orchestration des appels modèles, la préparation des données et la génération des recommandations.</li><li>Collaboration avec les équipes internes pour intégrer la solution dans les outils opérationnels utilisés pendant l'événement.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> Python<br /><br /><hr /><strong>Mission : Data Scientist / AI Engineer – Projet interne Wavestone (Matching & Recommandation)</strong><br />Dans le cadre d'une initiative interne visant à améliorer l'allocation des ressources, j'ai conçu un produit de Matching & Recommandation basé sur l'IA générative de GCP (Vertex AI) pour mettre en correspondance les missions internes avec les consultants les plus adaptés.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Développement d'un moteur de recommandation analysant automatiquement les CV des consultants et les besoins des missions.</li><li>Définition des règles de matching, optimisation des critères et validation des résultats avec les équipes internes.</li><li>Développement Python pour la préparation des données, l'intégration des modèles et la création du pipeline de recommandation.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> Python, GCP (Vertex AI)"
+    },
+    {
+      "title": "Stage de fin d'études : Ingénieur Cloud & DevOps",
+      "company": "Wavestone",
+      "logo": ["logo/wavestone.webp"],
+      "location": "La Défense, France",
+      "period": "Février 2022 à Juillet 2022",
+      "duration": "6 mois",
+      "description": "Développement d'une plateforme self-service Azure pour les collaborateurs de Wavestone, automatisation de l'infrastructure et industrialisation des processus cloud",
+      "details":"Au sein du cabinet Wavestone, j'ai mené un projet stratégique visant à créer une plateforme self-service Azure permettant aux collaborateurs d'accéder automatiquement et en autonomie aux services cloud Microsoft, tout en poursuivant mes missions clients en parallèle.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Conception et développement d'une plateforme self-service Azure, automatisant la création et la configuration d'environnements cloud pour les équipes internes.</li><li>Industrialisation de l'infrastructure via Terraform et intégration dans des pipelines CI/CD avec Jenkins.</li><li>Mise en place de workflows automatisés grâce à PowerAutomate et développement d'interfaces utilisateurs via PowerApps pour simplifier l'accès aux services Azure.</li><li>Développement de scripts Python et Shell pour orchestrer les déploiements, gérer les ressources et renforcer l'automatisation.</li><li>Collaboration avec les équipes Cloud et Sécurité pour garantir la conformité, la robustesse et la scalabilité de la plateforme.</li></ul><br /><strong>Technologies & outils mobilisés :</strong> Azure, Terraform, Jenkins, PowerAutomate, PowerApps, Python, Shell"
+    },
+    {
+      "title": "Stage Data Science en laboratoire",
+      "company": "ENS Paris-Saclay - Centre Borelli",
+      "logo": ["logo/borelli.png"],
+      "location": "Evry, France",
+      "period": "Juin 2021 à Août 2021",
+      "duration": "3 mois",
+      "description": "Développement de modèles de trend filtering pour l'analyse de la locomotion humaine et la détection précoce de pathologies",
+      "details":"Au sein du Centre Borelli de l'ENS Paris-Saclay, j'ai mené une étude autour du trend filtering, une méthode de machine learning appliquée aux séries temporelles, dans le cadre de l'analyse de la locomotion humaine pour la détection précoce de pathologies.<br /><br /><strong>Responsabilités principales :</strong><ul><li>Étude approfondie du trend filtering, technique de régularisation avancée pour séries temporelles, appliquée à des données biomécaniques.</li><li>Développement de scripts Python pour l'expérimentation, la visualisation et l'évaluation des modèles.</li><li>Comparaison de différentes approches de modélisation pour affiner la détection d'anomalies et améliorer la robustesse des résultats.</li><br /><strong>Technologies & outils mobilisés :</strong> Python, Jupyter"
     }
   ],
   "skills": [
     {
-      "category": "Frontend",
+      "category": "IA Générative",
       "level": "Expert",
-      "technologies": "HTML5, CSS3, JavaScript ES6+, React, Vue.js, Webpack, Sass"
+      "technologies": "Python, Langchain, RAG, Agents, Prompt Engineering, AWS Bedrock"
     },
     {
-      "category": "Backend",
+      "category": "Data Science & Machine Learning",
       "level": "Expert",
-      "technologies": "Node.js, Express, Python, Django, MongoDB, PostgreSQL, MySQL"
+      "technologies": "Python, Pandas, Numpy, Scikit-learn, XGBoost, TensorFlow, PyTorch"
     },
     {
-      "category": "DevOps & Outils",
+      "category": "Soft Skills & Management",
       "level": "Avancé",
-      "technologies": "Git, GitHub, Docker, AWS, CI/CD, Jenkins, Linux"
+      "technologies": "Gestion de projet, Management d'équipe, Communication, Rédaction technique, Présentation, Roadmap stratégique"
     },
     {
-      "category": "Langages",
+      "category": "Data Visualization & BI",
       "level": "Avancé",
-      "technologies": "JavaScript, Python, PHP, SQL, TypeScript"
+      "technologies": "Excel, PowerBI, Dataiku"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "level": "Avancé",
+      "technologies": "AWS, Azure, PowerPlatform, Git"
     }
   ],
   "education": [
     {
-      "title": "Licence en Informatique",
-      "school": "Université Paris Tech",
-      "year": "2019",
-      "description": "Spécialisation en Développement Web et Bases de Données"
+      "title": "Diplôme d'Ingénieur",
+      "school": "ENSIIE (Évry)",
+      "year": "2022",
+      "description": "Spécialisation en Intelligence Artificielle / Machine Learning"
     },
     {
-      "title": "Certificat Full Stack",
-      "school": "CodeAcademy",
-      "year": "2018",
-      "description": "Formation intensive en développement web full stack (3 mois)"
+      "title": "Classe Préparatoire aux Grandes Écoles (CPGE)",
+      "school": "Lycée Montaigne (Bordeaux)",
+      "year": "2019",
+      "description": "CPGE - PCSI & PC"
     },
     {
       "title": "Baccalauréat Scientifique",
-      "school": "Lycée Saint-Louis",
-      "year": "2015",
-      "description": "Mention Assez Bien"
+      "school": "Lycée Jean-Macé (Niort)",
+      "year": "2016",
+      "description": "Bac Scientifique - Mention Bien"
     }
   ]
 }
